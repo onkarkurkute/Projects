@@ -1,0 +1,67 @@
+<%@	Master Language="C#" CodeFile="Default1.master.cs" Inherits="Default_master"	%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+<head runat="server">
+	<title></title>
+</head>
+<body>
+
+	<form id="form1" runat="server">
+
+		<div class="header">
+			<h1>
+                STORAGE&nbsp; CLOUD</h1>
+			<h2>
+                Cloud Storage Site</h2>
+			<div class="nav">
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/LogOut.aspx" Style="z-index: 100;
+                    left: -34px; position: absolute; top: -1px">Logout</asp:HyperLink>
+                &nbsp;&nbsp;&nbsp;
+			</div>
+		</div>
+
+		<asp:contentplaceholder id="Main" runat="server" >
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </asp:contentplaceholder>
+
+		<div class="footerbg">
+			<div class="footer">
+                &nbsp;</div>
+		</div>
+	
+	</form>
+	
+</body>
+</html>
