@@ -1,0 +1,34 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="default" extends="struts-default">
+		<result-types>
+			<result-type name="tiles" class="org.apache.struts2.views.tiles.TilesResult" />
+		</result-types>
+ <action name="getSurvey" method="execute" 
+         class="onkar.action.SurveyAction">
+         <result name="success" type="tiles">Survey</result>
+         <result name="input" type="tiles">Survey</result>
+      </action>
+		 <action name="getSearchSurvey" method="getSearchSurvey" 
+         class="onkar.action.SurveyAction">
+         <result name="success" type="tiles">Search</result>
+         
+      </action>
+      <action name="getList" method="getList" 
+         class="onkar.action.SurveyAction">
+         <result name="success" type="tiles">Display</result>
+       </action>
+	
+      <action name="getDecision" method="getDecision" 
+         class="onkar.action.SurveyAction">
+         <result name="success" type="tiles">SimpleAck</result>
+         <result name="winner" type="tiles">WinAck</result>
+         <result name="input" type="tiles">Survey</result>
+       </action>
+          
+		
+	</package>
+</struts>
