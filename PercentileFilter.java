@@ -21,7 +21,7 @@ public class PercentileFilter {
 			FileInputStream fip = new FileInputStream("trainingdata.xls");//read the file
 			HSSFWorkbook wkb = new HSSFWorkbook(fp);//crate workbook object of read file
 			HSSFSheet wks = wkb.getSheet("trainingdata");//get required spreadsheet form workbook
-			
+			 
 			 int RS = Math.min(0, wks.getFirstRowNum());//get index of first row
 			 int RE = Math.max(608, wks.getLastRowNum());//get index of last row
 			 
